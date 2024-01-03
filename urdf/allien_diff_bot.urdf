@@ -1,5 +1,13 @@
 <?xml version="1.0"?>
 <robot name="allien_diff_bot">
+
+      <material name="silver">
+        <color rgba="0.75 0.75 0.75 1"/>
+      </material>
+<material name="black">
+  <color rgba="0 0 0 1"/>
+</material>
+
   <link name="base_footprint"/>
 
   <joint name="base_joint" type="fixed">
@@ -12,9 +20,7 @@
       <geometry>
         <cylinder length="0.08" radius="0.2"/>
       </geometry>
-      <material name="silver">
-        <color rgba="0.75 0.75 0.75 1"/>
-      </material>
+      <material name="silver"/>
     </visual>
     <collision>
       <geometry>
